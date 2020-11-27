@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/Sandbox/src/Sandbox.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/Sandbox/src/Sandbox.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/Application.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/Application.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Layer.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/Layer.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/Layer.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/core/LayerVector.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/LayerVector.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/LayerVector.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Window.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/Window.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/Window.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/core/main.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/main.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/main.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Buffer.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Buffer.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Buffer.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Renderer.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Renderer.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Shader.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Shader.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Shader.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/c++  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/VertexArray.cpp",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/VertexArray.cpp"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenEngine/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer  -o CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external/glad.c",
+  "file": "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external/glad.c"
+}
+]
