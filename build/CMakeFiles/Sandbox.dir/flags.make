@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer
+C_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer
+CXX_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input
 
 CXX_FLAGS = 
 

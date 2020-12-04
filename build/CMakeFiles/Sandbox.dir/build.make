@@ -193,9 +193,35 @@ CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Shader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Shader.cpp -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Shader.cpp.s
 
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.o: CMakeFiles/Sandbox.dir/flags.make
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.o: ../RaidenEngine/src/renderer/Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Text.cpp
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Text.cpp > CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.i
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Text.cpp -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.s
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.o: CMakeFiles/Sandbox.dir/flags.make
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.o: ../RaidenEngine/src/renderer/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Texture.cpp
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Texture.cpp > CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.i
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/Texture.cpp -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.s
+
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o: CMakeFiles/Sandbox.dir/flags.make
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o: ../RaidenEngine/src/renderer/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer/VertexArray.cpp
 
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.i: cmake_force
@@ -208,7 +234,7 @@ CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.s: cmake_force
 
 CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o: CMakeFiles/Sandbox.dir/flags.make
 CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o: ../RaidenEngine/src/external/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external/glad.c
 
 CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.i: cmake_force
@@ -218,6 +244,32 @@ CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.i: cmake_force
 CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external/glad.c -o CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.s
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o: CMakeFiles/Sandbox.dir/flags.make
+CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o: ../RaidenEngine/src/external/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external/stb_image.cpp
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external/stb_image.cpp > CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.i
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external/stb_image.cpp -o CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.s
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o: CMakeFiles/Sandbox.dir/flags.make
+CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o: ../RaidenEngine/src/input/Input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o -c /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input/Input.cpp
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input/Input.cpp > CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.i
+
+CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input/Input.cpp -o CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.s
 
 # Object files for target Sandbox
 Sandbox_OBJECTS = \
@@ -230,8 +282,12 @@ Sandbox_OBJECTS = \
 "CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Buffer.cpp.o" \
 "CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o" \
 "CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Shader.cpp.o" \
+"CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.o" \
+"CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.o" \
 "CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o" \
-"CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o"
+"CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o" \
+"CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o" \
+"CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o"
 
 # External object files for target Sandbox
 Sandbox_EXTERNAL_OBJECTS =
@@ -245,11 +301,15 @@ Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/core/main.cpp.o
 Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Buffer.cpp.o
 Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o
 Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Shader.cpp.o
+Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.o
+Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.o
 Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/VertexArray.cpp.o
 Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o
+Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o
+Sandbox: CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o
 Sandbox: CMakeFiles/Sandbox.dir/build.make
 Sandbox: CMakeFiles/Sandbox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Sandbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Sandbox"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sandbox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

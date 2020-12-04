@@ -14,6 +14,7 @@ namespace Raiden {
 			void use();
 			unsigned int getShaderID();
 			void setUniformMat4f(glm::mat4 matrix, std::string name);
+			void setUniform1i(unsigned int n, std::string name);
 		private:
 			void createShaderProgram();
 			unsigned int createShader(GLenum shaderType, std::string shaderSrc);

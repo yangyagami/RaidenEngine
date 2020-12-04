@@ -5,6 +5,7 @@
 #include "Buffer.h"
 #include "VertexArray.h"
 #include <glm/glm.hpp>
+#include "Texture.h"
 
 namespace Raiden {
 
@@ -13,7 +14,9 @@ namespace Raiden {
 			static void init();
 			static void shutdown();
 			static void begin();
-			static void drawRect(glm::vec2 pos, glm::vec2 size, glm::vec4 color);
+			static void drawRect(glm::vec2 &pos, glm::vec2 &size, glm::vec4 &color);
+			static void drawTexture(Texture &texture, glm::vec2 &pos, glm::vec2 &size);
+			static void drawTexture(Texture &texture, glm::vec2 &pos, glm::vec2 &size, glm::vec4 &color);
 			static void startBatch();
 			static void reBatch();
 			static void render();
@@ -26,6 +29,8 @@ namespace Raiden {
 			static Buffer *ibo;
 			static VertexArray *vao;
 			static unsigned int quadsCount;
+			static Texture *textureSlots[10];
+			static std::string textureName[10];
 	};
 
 }

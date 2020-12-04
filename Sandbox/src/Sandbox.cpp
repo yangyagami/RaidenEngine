@@ -2,33 +2,35 @@
 #include "Application.h"
 #include <iostream>
 #include "Layer.h"
+#include "Input.h"
+#include <cmath>
 
 class TestLayer : public Raiden::Layer {
 	public:
-		TestLayer() {
-		
+		TestLayer() : picture("1.jpg") {
+			pos = { 0.0f, 0.0f };
+			size = { 800.0f, 600.0f };
+			color = { 1.0f, 0.5f, 0.5f, 1.0f };
 		}
-
-		virtual void update() {
-
-			Raiden::Renderer::begin(); 
+	
+		virtual void update(float dt) {
+			Raiden::Renderer::begin();	
 			{
+				
 				Raiden::Renderer::clearColor(0.5f, 0.5f, 0.5f, 1.0f);
-				for (int i = 0; i < 100; i++) {
-					for (int j = 0; j < 100; j++) {
-						glm::vec2 pos(i * 31.0f, j * 31.0f);
-						glm::vec2 size(30.0f, 30.0f);
-						glm::vec4 color(1.0f, 0.5f, 0.5f, 1.0f);
-						Raiden::Renderer::drawRect(pos, size, color);
-					}
-				}
+				Raiden::Renderer::drawTexture(picture, pos, size, color);
 			}
-			Raiden::Renderer::end();
+			Raiden::Renderer::end();	
 		}
-
+	
 		virtual ~TestLayer() {
-			std::cout << "destructor" << std::endl;
+	
 		}
+	private:
+		glm::vec2 pos;
+		glm::vec2 size;
+		glm::vec4 color;
+		Raiden::Texture picture;
 };
 
 class Sandbox : public Raiden::Application {

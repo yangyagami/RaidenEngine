@@ -20,21 +20,72 @@ namespace Raiden {
 		std::string vertexShaderSrc = R"(
 			#version 330 core
 			layout (location = 0) in vec4 aPos;
-			layout (location = 1) in vec4 aColor;
+			layout (location = 1) in vec2 aTexCoord;
+			layout (location = 2) in vec4 aColor;
+			layout (location = 3) in float aTexIndex;
 			out vec4 mColor;
+			out float mTexIndex;
+			out vec2 mTexCoord;
 			uniform mat4 proj;
 			void main() {
 				gl_Position = proj * aPos;
 				mColor = aColor;
+				mTexIndex = aTexIndex;
+				mTexCoord = aTexCoord;
 			}
 		)";
 
 		std::string fragmentShaderSrc = R"(
 			#version 330 core
 			out vec4 fragColor;
+			in float mTexIndex;
 			in vec4 mColor;
+			in vec2 mTexCoord;
+
+			uniform sampler2D mTexture0;
+			uniform sampler2D mTexture1;
+			uniform sampler2D mTexture2;
+			uniform sampler2D mTexture3;
+			uniform sampler2D mTexture4;
+			uniform sampler2D mTexture5;
+			uniform sampler2D mTexture6;
+			uniform sampler2D mTexture7;
+			uniform sampler2D mTexture8;
+			uniform sampler2D mTexture9;
+
 			void main() {
-				fragColor = mColor;
+				switch(int(mTexIndex)) {
+					case 0:
+						fragColor = texture(mTexture0, mTexCoord) * mColor;
+						break;
+					case 1:
+						fragColor = texture(mTexture1, mTexCoord) * mColor;
+						break;
+					case 2:
+						fragColor = texture(mTexture2, mTexCoord) * mColor;
+						break;
+					case 3:
+						fragColor = texture(mTexture3, mTexCoord) * mColor;
+						break;
+					case 4:
+						fragColor = texture(mTexture4, mTexCoord) * mColor;
+						break;
+					case 5:
+						fragColor = texture(mTexture5, mTexCoord) * mColor;
+						break;
+					case 6:
+						fragColor = texture(mTexture6, mTexCoord) * mColor;
+						break;
+					case 7:
+						fragColor = texture(mTexture7, mTexCoord) * mColor;
+						break;
+					case 8:
+						fragColor = texture(mTexture8, mTexCoord) * mColor;
+						break;
+					case 9:
+						fragColor = texture(mTexture9, mTexCoord) * mColor;
+						break;
+				}
 			}
 		)";
 		int success;
@@ -86,4 +137,8 @@ namespace Raiden {
 		glUniformMatrix4fv(location, 1, GL_FALSE, glm::value_ptr(matrix));
 	}
 
+	void Shader::setUniform1i(unsigned int n, std::string name) {
+		int location = glGetUniformLocation(id, name.c_str());
+		glUniform1i(location, n);
+	}
 }

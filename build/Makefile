@@ -304,6 +304,60 @@ RaidenEngine/src/external/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.s
 .PHONY : RaidenEngine/src/external/glad.c.s
 
+RaidenEngine/src/external/stb_image.o: RaidenEngine/src/external/stb_image.cpp.o
+
+.PHONY : RaidenEngine/src/external/stb_image.o
+
+# target to build an object file
+RaidenEngine/src/external/stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o
+.PHONY : RaidenEngine/src/external/stb_image.cpp.o
+
+RaidenEngine/src/external/stb_image.i: RaidenEngine/src/external/stb_image.cpp.i
+
+.PHONY : RaidenEngine/src/external/stb_image.i
+
+# target to preprocess a source file
+RaidenEngine/src/external/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.i
+.PHONY : RaidenEngine/src/external/stb_image.cpp.i
+
+RaidenEngine/src/external/stb_image.s: RaidenEngine/src/external/stb_image.cpp.s
+
+.PHONY : RaidenEngine/src/external/stb_image.s
+
+# target to generate assembly for a file
+RaidenEngine/src/external/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.s
+.PHONY : RaidenEngine/src/external/stb_image.cpp.s
+
+RaidenEngine/src/input/Input.o: RaidenEngine/src/input/Input.cpp.o
+
+.PHONY : RaidenEngine/src/input/Input.o
+
+# target to build an object file
+RaidenEngine/src/input/Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o
+.PHONY : RaidenEngine/src/input/Input.cpp.o
+
+RaidenEngine/src/input/Input.i: RaidenEngine/src/input/Input.cpp.i
+
+.PHONY : RaidenEngine/src/input/Input.i
+
+# target to preprocess a source file
+RaidenEngine/src/input/Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.i
+.PHONY : RaidenEngine/src/input/Input.cpp.i
+
+RaidenEngine/src/input/Input.s: RaidenEngine/src/input/Input.cpp.s
+
+.PHONY : RaidenEngine/src/input/Input.s
+
+# target to generate assembly for a file
+RaidenEngine/src/input/Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.s
+.PHONY : RaidenEngine/src/input/Input.cpp.s
+
 RaidenEngine/src/renderer/Buffer.o: RaidenEngine/src/renderer/Buffer.cpp.o
 
 .PHONY : RaidenEngine/src/renderer/Buffer.o
@@ -384,6 +438,60 @@ RaidenEngine/src/renderer/Shader.s: RaidenEngine/src/renderer/Shader.cpp.s
 RaidenEngine/src/renderer/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Shader.cpp.s
 .PHONY : RaidenEngine/src/renderer/Shader.cpp.s
+
+RaidenEngine/src/renderer/Text.o: RaidenEngine/src/renderer/Text.cpp.o
+
+.PHONY : RaidenEngine/src/renderer/Text.o
+
+# target to build an object file
+RaidenEngine/src/renderer/Text.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.o
+.PHONY : RaidenEngine/src/renderer/Text.cpp.o
+
+RaidenEngine/src/renderer/Text.i: RaidenEngine/src/renderer/Text.cpp.i
+
+.PHONY : RaidenEngine/src/renderer/Text.i
+
+# target to preprocess a source file
+RaidenEngine/src/renderer/Text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.i
+.PHONY : RaidenEngine/src/renderer/Text.cpp.i
+
+RaidenEngine/src/renderer/Text.s: RaidenEngine/src/renderer/Text.cpp.s
+
+.PHONY : RaidenEngine/src/renderer/Text.s
+
+# target to generate assembly for a file
+RaidenEngine/src/renderer/Text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Text.cpp.s
+.PHONY : RaidenEngine/src/renderer/Text.cpp.s
+
+RaidenEngine/src/renderer/Texture.o: RaidenEngine/src/renderer/Texture.cpp.o
+
+.PHONY : RaidenEngine/src/renderer/Texture.o
+
+# target to build an object file
+RaidenEngine/src/renderer/Texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.o
+.PHONY : RaidenEngine/src/renderer/Texture.cpp.o
+
+RaidenEngine/src/renderer/Texture.i: RaidenEngine/src/renderer/Texture.cpp.i
+
+.PHONY : RaidenEngine/src/renderer/Texture.i
+
+# target to preprocess a source file
+RaidenEngine/src/renderer/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.i
+.PHONY : RaidenEngine/src/renderer/Texture.cpp.i
+
+RaidenEngine/src/renderer/Texture.s: RaidenEngine/src/renderer/Texture.cpp.s
+
+.PHONY : RaidenEngine/src/renderer/Texture.s
+
+# target to generate assembly for a file
+RaidenEngine/src/renderer/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Texture.cpp.s
+.PHONY : RaidenEngine/src/renderer/Texture.cpp.s
 
 RaidenEngine/src/renderer/VertexArray.o: RaidenEngine/src/renderer/VertexArray.cpp.o
 
@@ -466,6 +574,12 @@ help:
 	@echo "... RaidenEngine/src/external/glad.o"
 	@echo "... RaidenEngine/src/external/glad.i"
 	@echo "... RaidenEngine/src/external/glad.s"
+	@echo "... RaidenEngine/src/external/stb_image.o"
+	@echo "... RaidenEngine/src/external/stb_image.i"
+	@echo "... RaidenEngine/src/external/stb_image.s"
+	@echo "... RaidenEngine/src/input/Input.o"
+	@echo "... RaidenEngine/src/input/Input.i"
+	@echo "... RaidenEngine/src/input/Input.s"
 	@echo "... RaidenEngine/src/renderer/Buffer.o"
 	@echo "... RaidenEngine/src/renderer/Buffer.i"
 	@echo "... RaidenEngine/src/renderer/Buffer.s"
@@ -475,6 +589,12 @@ help:
 	@echo "... RaidenEngine/src/renderer/Shader.o"
 	@echo "... RaidenEngine/src/renderer/Shader.i"
 	@echo "... RaidenEngine/src/renderer/Shader.s"
+	@echo "... RaidenEngine/src/renderer/Text.o"
+	@echo "... RaidenEngine/src/renderer/Text.i"
+	@echo "... RaidenEngine/src/renderer/Text.s"
+	@echo "... RaidenEngine/src/renderer/Texture.o"
+	@echo "... RaidenEngine/src/renderer/Texture.i"
+	@echo "... RaidenEngine/src/renderer/Texture.s"
 	@echo "... RaidenEngine/src/renderer/VertexArray.o"
 	@echo "... RaidenEngine/src/renderer/VertexArray.i"
 	@echo "... RaidenEngine/src/renderer/VertexArray.s"

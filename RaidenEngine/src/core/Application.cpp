@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Renderer.h"
 #include "Application.h"
+#include "Input.h"
 
 namespace Raiden {
 
@@ -8,6 +9,7 @@ namespace Raiden {
 		window = new Window(800, 600, "RaidenEngine");
 		std::cout << "Create Application" << std::endl;	
 		Renderer::init();
+		Input::init(window);
 		window->setSync(1);
 	}
 	
@@ -33,7 +35,7 @@ namespace Raiden {
 				Renderer::clearColor(0.3f, 0.3f, 0.3f, 1.0f);
 			} else {
 				for (Layer *layer : layerVector) {
-					layer->update();
+					layer->update(dt);
 				}
 			}
 
