@@ -19,7 +19,7 @@ namespace Raiden {
 	}
 
 	Texture::Texture(std::string path) {
-		int width, height, channels;
+		int channels;
 		data = stbi_load(path.c_str(), &width, &height, &channels, 0); 
 		unsigned int format;
 
@@ -46,6 +46,17 @@ namespace Raiden {
 		shader->setUniform1i(slots, name); 	
 	}
 	
+	glm::vec2 Texture::getSize() {
+		return { width, height };
+	}
+
+	float Texture::getWidth() {
+		return width;
+	}
+
+	float Texture::getHeight() {
+		return height;
+	}
 
 	Texture::~Texture() {
 		glDeleteTextures(1, &id);

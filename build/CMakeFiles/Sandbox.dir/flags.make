@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input
+C_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/event
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input
+CXX_INCLUDES = -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/external -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/renderer -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/input -I/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/event
 
 CXX_FLAGS = 
 

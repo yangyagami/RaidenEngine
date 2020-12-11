@@ -15,6 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../RaidenEngine/src/external"
   "../RaidenEngine/src/renderer"
   "../RaidenEngine/src/input"
+  "../RaidenEngine/src/event"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yangsiyu/Workspace/RaidenEngine/RaidenEngine/src/core/Application.cpp" "/home/yangsiyu/Workspace/RaidenEngine/build/CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o"
@@ -40,6 +41,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../RaidenEngine/src/external"
   "../RaidenEngine/src/renderer"
   "../RaidenEngine/src/input"
+  "../RaidenEngine/src/event"
   )
 
 # Targets to which this target links.

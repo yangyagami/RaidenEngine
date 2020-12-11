@@ -11,8 +11,12 @@ Window.h
 ../RaidenEngine/src/core/Window.h
 LayerVector.h
 ../RaidenEngine/src/core/LayerVector.h
+KeyEvent.h
+../RaidenEngine/src/core/KeyEvent.h
 
 ../RaidenEngine/src/core/Layer.h
+Event.h
+../RaidenEngine/src/core/Event.h
 
 ../RaidenEngine/src/core/LayerVector.h
 Layer.h
@@ -25,6 +29,20 @@ GLFW/glfw3.h
 -
 iostream
 -
+functional
+-
+Event.h
+../RaidenEngine/src/core/Event.h
+KeyEvent.h
+../RaidenEngine/src/core/KeyEvent.h
+
+../RaidenEngine/src/event/Event.h
+iostream
+-
+
+../RaidenEngine/src/event/KeyEvent.h
+Event.h
+../RaidenEngine/src/event/Event.h
 
 ../RaidenEngine/src/external/KHR/khrplatform.h
 stdint.h

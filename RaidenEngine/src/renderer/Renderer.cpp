@@ -2,6 +2,7 @@
 #include "glad/glad.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#include "Font.h"
 
 namespace Raiden {
 
@@ -30,6 +31,10 @@ namespace Raiden {
 	unsigned int textureSlotsIndex = 0;
 
 	void Renderer::init() {
+		glEnable(GL_BLEND);
+	//	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE);
+
 		textureName[0] = "mTexture0";
 		textureName[1] = "mTexture1";
 		textureName[2] = "mTexture2";
@@ -91,6 +96,10 @@ namespace Raiden {
 		textureSlotsIndex = 1;
 	}
 
+	void Renderer::initFont() {
+		glPixelStorei(GL_UNPACK_ALIGNMENT, 1);	
+	}
+
 	void Renderer::begin() {
 		glm::mat4 projection = glm::ortho(0.0f, 800.0f, 0.0f, 600.0f, -1.0f, 1.0f);
 		shader->setUniformMat4f(projection, "proj");
@@ -109,6 +118,11 @@ namespace Raiden {
 	void Renderer::drawTexture(Texture &texture, glm::vec2 &pos, glm::vec2 &size) {
 		glm::vec4 color = { 1.0f, 1.0f, 1.0f, 1.0f };
 		drawTexture(texture, pos, size, color);
+	}
+
+	void Renderer::drawTexture(Texture &texture, glm::vec2 &pos) {
+		glm::vec2 size = texture.getSize();
+		drawTexture(texture, pos, size); 
 	}
 
 	void Renderer::drawTexture(Texture &texture, glm::vec2 &pos, glm::vec2 &size, glm::vec4 &color) {

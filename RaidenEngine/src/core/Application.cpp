@@ -11,6 +11,7 @@ namespace Raiden {
 		Renderer::init();
 		Input::init(window);
 		window->setSync(1);
+		window->setEventCallback(std::bind(&Application::onEvent, this, std::placeholders::_1));
 	}
 	
 	Application::~Application() {
@@ -36,6 +37,7 @@ namespace Raiden {
 			} else {
 				for (Layer *layer : layerVector) {
 					layer->update(dt);
+					layer->draw(dt);
 				}
 			}
 
@@ -45,7 +47,17 @@ namespace Raiden {
 		}
 	}
 
+	void Application::onEvent(Event &e) {
+		for (Layer *layer : layerVector) {
+			layer->onEvent(e);
+		}
+	}
+
 	void Application::pushLayer(Layer *layer) {
 		layerVector.push(layer);
+	}
+
+	void Application::setWindowSize(int width, int height) {
+		window->setWindowSize(width, height);
 	}
 }

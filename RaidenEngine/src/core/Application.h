@@ -3,6 +3,7 @@
 
 #include "Window.h"
 #include "LayerVector.h"
+#include "KeyEvent.h"
 
 namespace Raiden {
 
@@ -11,6 +12,8 @@ namespace Raiden {
 			Application();
 			virtual ~Application();
 			void run();
+			void onEvent(Event &e);
+			void setWindowSize(int width, int height);
 			void pushLayer(Layer *layer);
 		private:
 			LayerVector layerVector;

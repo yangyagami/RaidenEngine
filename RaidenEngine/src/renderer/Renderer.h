@@ -12,10 +12,12 @@ namespace Raiden {
 	class Renderer {
 		public:
 			static void init();
+			static void initFont();
 			static void shutdown();
 			static void begin();
 			static void drawRect(glm::vec2 &pos, glm::vec2 &size, glm::vec4 &color);
 			static void drawTexture(Texture &texture, glm::vec2 &pos, glm::vec2 &size);
+			static void drawTexture(Texture &texture, glm::vec2 &pos);
 			static void drawTexture(Texture &texture, glm::vec2 &pos, glm::vec2 &size, glm::vec4 &color);
 			static void startBatch();
 			static void reBatch();

@@ -5,6 +5,8 @@ CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o: ../RaidenEngine/src/e
 CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o: ../RaidenEngine/src/external/glad/glad.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/external/glad.c.o: ../RaidenEngine/src/external/glad.c
 
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/src/event/Event.h
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/src/event/KeyEvent.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/src/external/KHR/khrplatform.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/src/external/glad/glad.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/src/input/Input.h
@@ -19,18 +21,24 @@ CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/src/core/LayerVector.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Application.cpp.o: ../RaidenEngine/src/core/Window.h
 
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Layer.cpp.o: ../RaidenEngine/src/event/Event.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Layer.cpp.o: ../RaidenEngine/src/core/Layer.cpp
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Layer.cpp.o: ../RaidenEngine/src/core/Layer.h
 
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/LayerVector.cpp.o: ../RaidenEngine/src/event/Event.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/LayerVector.cpp.o: ../RaidenEngine/src/core/Layer.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/LayerVector.cpp.o: ../RaidenEngine/src/core/LayerVector.cpp
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/LayerVector.cpp.o: ../RaidenEngine/src/core/LayerVector.h
 
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Window.cpp.o: ../RaidenEngine/src/event/Event.h
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Window.cpp.o: ../RaidenEngine/src/event/KeyEvent.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Window.cpp.o: ../RaidenEngine/src/external/KHR/khrplatform.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Window.cpp.o: ../RaidenEngine/src/external/glad/glad.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Window.cpp.o: ../RaidenEngine/src/core/Window.cpp
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/Window.cpp.o: ../RaidenEngine/src/core/Window.h
 
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/main.cpp.o: ../RaidenEngine/src/event/Event.h
+CMakeFiles/Sandbox.dir/RaidenEngine/src/core/main.cpp.o: ../RaidenEngine/src/event/KeyEvent.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/main.cpp.o: ../RaidenEngine/src/core/Application.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/main.cpp.o: ../RaidenEngine/src/core/Layer.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/core/main.cpp.o: ../RaidenEngine/src/core/LayerVector.h
@@ -41,6 +49,8 @@ CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o: ../RaidenEngin
 CMakeFiles/Sandbox.dir/RaidenEngine/src/external/stb_image.cpp.o: ../RaidenEngine/src/external/stb_image.h
 
 CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o: ../RaidenEngine/src/core/Window.h
+CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o: ../RaidenEngine/src/event/Event.h
+CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o: ../RaidenEngine/src/event/KeyEvent.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o: ../RaidenEngine/src/input/Input.cpp
 CMakeFiles/Sandbox.dir/RaidenEngine/src/input/Input.cpp.o: ../RaidenEngine/src/input/Input.h
 
@@ -52,6 +62,7 @@ CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Buffer.cpp.o: ../RaidenEngine/s
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o: ../RaidenEngine/src/external/KHR/khrplatform.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o: ../RaidenEngine/src/external/glad/glad.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o: ../RaidenEngine/src/renderer/Buffer.h
+CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o: ../RaidenEngine/src/renderer/Font.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o: ../RaidenEngine/src/renderer/Renderer.cpp
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o: ../RaidenEngine/src/renderer/Renderer.h
 CMakeFiles/Sandbox.dir/RaidenEngine/src/renderer/Renderer.cpp.o: ../RaidenEngine/src/renderer/Shader.h
@@ -81,6 +92,8 @@ CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/core/Appli
 CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/core/Layer.h
 CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/core/LayerVector.h
 CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/core/Window.h
+CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/event/Event.h
+CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/event/KeyEvent.h
 CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/external/KHR/khrplatform.h
 CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/external/glad/glad.h
 CMakeFiles/Sandbox.dir/Sandbox/src/Sandbox.cpp.o: ../RaidenEngine/src/input/Input.h

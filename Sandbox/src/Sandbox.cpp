@@ -5,43 +5,50 @@
 #include "Input.h"
 #include <cmath>
 
-class TestLayer : public Raiden::Layer {
+class Test : public Raiden::Layer {
 	public:
-		TestLayer() : picture("1.jpg") {
-			pos = { 0.0f, 0.0f };
-			size = { 800.0f, 600.0f };
-			color = { 1.0f, 0.5f, 0.5f, 1.0f };
+		Test(int width, int height) : WINDOW_WIDTH(width), WINDOW_HEIGHT(height) {
+
 		}
-	
-		virtual void update(float dt) {
-			Raiden::Renderer::begin();	
+		virtual void update(float dt) override {
+
+		}
+		virtual void draw(float dt = 0.0f) override {
+			Raiden::Renderer::begin();
 			{
-				
-				Raiden::Renderer::clearColor(0.5f, 0.5f, 0.5f, 1.0f);
-				Raiden::Renderer::drawTexture(picture, pos, size, color);
+				glm::vec2 pos(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2);
+				glm::vec2 size(30.0f, 30.0f);
+				glm::vec4 color(1.0f, 0.5f, 1.0f, 1.0f);
+
+				Raiden::Renderer::drawRect(pos, size, color);
 			}
-			Raiden::Renderer::end();	
+			Raiden::Renderer::end();
 		}
-	
-		virtual ~TestLayer() {
-	
+		virtual void onEvent(Raiden::Event &e) override {
+
+		}
+		~Test() {
+
 		}
 	private:
-		glm::vec2 pos;
-		glm::vec2 size;
-		glm::vec4 color;
-		Raiden::Texture picture;
+		const int WINDOW_WIDTH;
+		const int WINDOW_HEIGHT;
 };
 
 class Sandbox : public Raiden::Application {
 	public:
 		Sandbox() {
-			TestLayer *layer = new TestLayer();
+			Test *layer = new Test(WINDOW_WIDTH, WINDOW_HEIGHT);
 			pushLayer(layer);
+
+			setWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 		}
 		virtual ~Sandbox() {
 			std::cout << "shutdown sandbox" << std::endl;	
 		}
+	private:
+		const int WINDOW_HEIGHT = 300;
+		const int WINDOW_WIDTH = 400;
 };
 
 Raiden::Application *Raiden::createApplication() {
